@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31745FE91EAF3973005C247E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31745FE81EAF3973005C247E /* main.m */; };
+		31745FEC1EAF3973005C247E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31745FEB1EAF3973005C247E /* AppDelegate.m */; };
+		31745FEF1EAF3973005C247E /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31745FEE1EAF3973005C247E /* ViewController.mm */; };
+		31745FF21EAF3973005C247E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31745FF01EAF3973005C247E /* Main.storyboard */; };
+		31745FF41EAF3973005C247E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31745FF31EAF3973005C247E /* Assets.xcassets */; };
+		31745FF71EAF3973005C247E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31745FF51EAF3973005C247E /* LaunchScreen.storyboard */; };
+		317460021EAF3D42005C247E /* VideoSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 317460011EAF3D42005C247E /* VideoSource.mm */; };
+		317460051EAF3D6D005C247E /* ARViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 317460041EAF3D6D005C247E /* ARViewController.mm */; };
+		317460081EAF3FC7005C247E /* ARUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 317460071EAF3FC7005C247E /* ARUtil.mm */; };
+		3174600C1EAF40E2005C247E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3174600B1EAF40E2005C247E /* AVFoundation.framework */; };
+		3174600E1EAF4118005C247E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3174600D1EAF4118005C247E /* CoreMedia.framework */; };
+		317460141EB1E748005C247E /* libQAR2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 317460131EB1E748005C247E /* libQAR2.a */; };
+		3174601D1EB222E6005C247E /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3174601C1EB222E6005C247E /* SettingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31745FE41EAF3973005C247E /* QARDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QARDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31745FE81EAF3973005C247E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31745FEA1EAF3973005C247E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31745FEB1EAF3973005C247E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31745FED1EAF3973005C247E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31745FEE1EAF3973005C247E /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		31745FF11EAF3973005C247E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31745FF31EAF3973005C247E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31745FF61EAF3973005C247E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31745FF81EAF3973005C247E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		317460001EAF3D42005C247E /* VideoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoSource.h; sourceTree = "<group>"; };
+		317460011EAF3D42005C247E /* VideoSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoSource.mm; sourceTree = "<group>"; };
+		317460031EAF3D6D005C247E /* ARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		317460041EAF3D6D005C247E /* ARViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARViewController.mm; sourceTree = "<group>"; };
+		317460061EAF3FC7005C247E /* ARUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARUtil.h; sourceTree = "<group>"; };
+		317460071EAF3FC7005C247E /* ARUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARUtil.mm; sourceTree = "<group>"; };
+		317460091EAF405E005C247E /* BGRAFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGRAFrame.h; sourceTree = "<group>"; };
+		3174600B1EAF40E2005C247E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3174600D1EAF4118005C247E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		317460131EB1E748005C247E /* libQAR2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQAR2.a; path = ../../../QAR2SLAM/QAR2SLAM/build/Debug/libQAR2.a; sourceTree = "<group>"; };
+		3174601B1EB222E6005C247E /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewController.h; path = SettingViewController/SettingViewController.h; sourceTree = "<group>"; };
+		3174601C1EB222E6005C247E /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = SettingViewController/SettingViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31745FE11EAF3973005C247E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317460141EB1E748005C247E /* libQAR2.a in Frameworks */,
+				3174600E1EAF4118005C247E /* CoreMedia.framework in Frameworks */,
+				3174600C1EAF40E2005C247E /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31745FDB1EAF3973005C247E = {
+			isa = PBXGroup;
+			children = (
+				3174601A1EB222B4005C247E /* SettingViewController */,
+				31745FFF1EAF3D42005C247E /* ARViewController */,
+				31745FE61EAF3973005C247E /* QARDemo */,
+				31745FE51EAF3973005C247E /* Products */,
+				3174600A1EAF40E1005C247E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31745FE51EAF3973005C247E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31745FE41EAF3973005C247E /* QARDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31745FE61EAF3973005C247E /* QARDemo */ = {
+			isa = PBXGroup;
+			children = (
+				31745FEA1EAF3973005C247E /* AppDelegate.h */,
+				31745FEB1EAF3973005C247E /* AppDelegate.m */,
+				31745FED1EAF3973005C247E /* ViewController.h */,
+				31745FEE1EAF3973005C247E /* ViewController.mm */,
+				31745FF01EAF3973005C247E /* Main.storyboard */,
+				31745FF31EAF3973005C247E /* Assets.xcassets */,
+				31745FF51EAF3973005C247E /* LaunchScreen.storyboard */,
+				31745FF81EAF3973005C247E /* Info.plist */,
+				31745FE71EAF3973005C247E /* Supporting Files */,
+			);
+			path = QARDemo;
+			sourceTree = "<group>";
+		};
+		31745FE71EAF3973005C247E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31745FE81EAF3973005C247E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31745FFF1EAF3D42005C247E /* ARViewController */ = {
+			isa = PBXGroup;
+			children = (
+				317460091EAF405E005C247E /* BGRAFrame.h */,
+				317460061EAF3FC7005C247E /* ARUtil.h */,
+				317460071EAF3FC7005C247E /* ARUtil.mm */,
+				317460001EAF3D42005C247E /* VideoSource.h */,
+				317460011EAF3D42005C247E /* VideoSource.mm */,
+				317460031EAF3D6D005C247E /* ARViewController.h */,
+				317460041EAF3D6D005C247E /* ARViewController.mm */,
+			);
+			path = ARViewController;
+			sourceTree = "<group>";
+		};
+		3174600A1EAF40E1005C247E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				317460131EB1E748005C247E /* libQAR2.a */,
+				3174600D1EAF4118005C247E /* CoreMedia.framework */,
+				3174600B1EAF40E2005C247E /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3174601A1EB222B4005C247E /* SettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3174601B1EB222E6005C247E /* SettingViewController.h */,
+				3174601C1EB222E6005C247E /* SettingViewController.m */,
+			);
+			name = SettingViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31745FE31EAF3973005C247E /* QARDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31745FFB1EAF3973005C247E /* Build configuration list for PBXNativeTarget "QARDemo" */;
+			buildPhases = (
+				31745FE01EAF3973005C247E /* Sources */,
+				31745FE11EAF3973005C247E /* Frameworks */,
+				31745FE21EAF3973005C247E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QARDemo;
+			productName = QARDemo;
+			productReference = 31745FE41EAF3973005C247E /* QARDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31745FDC1EAF3973005C247E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tencent Inc.";
+				TargetAttributes = {
+					31745FE31EAF3973005C247E = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 6BMCDAXKSL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 31745FDF1EAF3973005C247E /* Build configuration list for PBXProject "QARDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31745FDB1EAF3973005C247E;
+			productRefGroup = 31745FE51EAF3973005C247E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31745FE31EAF3973005C247E /* QARDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31745FE21EAF3973005C247E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31745FF71EAF3973005C247E /* LaunchScreen.storyboard in Resources */,
+				31745FF41EAF3973005C247E /* Assets.xcassets in Resources */,
+				31745FF21EAF3973005C247E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31745FE01EAF3973005C247E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317460081EAF3FC7005C247E /* ARUtil.mm in Sources */,
+				31745FEF1EAF3973005C247E /* ViewController.mm in Sources */,
+				31745FEC1EAF3973005C247E /* AppDelegate.m in Sources */,
+				3174601D1EB222E6005C247E /* SettingViewController.m in Sources */,
+				317460021EAF3D42005C247E /* VideoSource.mm in Sources */,
+				31745FE91EAF3973005C247E /* main.m in Sources */,
+				317460051EAF3D6D005C247E /* ARViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31745FF01EAF3973005C247E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31745FF11EAF3973005C247E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31745FF51EAF3973005C247E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31745FF61EAF3973005C247E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31745FF91EAF3973005C247E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31745FFA1EAF3973005C247E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31745FFC1EAF3973005C247E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6BMCDAXKSL;
+				INFOPLIST_FILE = QARDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.QARDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31745FFD1EAF3973005C247E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6BMCDAXKSL;
+				INFOPLIST_FILE = QARDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.QARDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31745FDF1EAF3973005C247E /* Build configuration list for PBXProject "QARDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31745FF91EAF3973005C247E /* Debug */,
+				31745FFA1EAF3973005C247E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31745FFB1EAF3973005C247E /* Build configuration list for PBXNativeTarget "QARDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31745FFC1EAF3973005C247E /* Debug */,
+				31745FFD1EAF3973005C247E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31745FDC1EAF3973005C247E /* Project object */;
+}
